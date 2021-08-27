@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<style>
+
+body{
+	margin: 0;
+}
+header, footer{ 
+		width: 100%;
+		height: 40px;
+		background-color: #000; /*cor do cabeçalho*/
+		position: fixed; 
+	}
+	header{
+		top: 0;
+		display: flex;
+	}
+	footer{
+		height: 60px; /*altura do rodapé*/
+		border-bottom: 0;
+		position: fixed; 
+		bottom: 0;
+		background-color: #000;  /*cor do rodapé*/
+	}
+	.divf{ /*div onde os links estão agrupados*/
+		margin: 3px;
+		position: absolute;
+		right: 17%;
+		display: flex;
+		
+	}
+	.divd{ /*div para configuração do alinhamento dos links*/
+		width: 90px;
+		height: 33px;
+		margin-top: 1px;
+		margin-right: 20px;
+		font-size: 14px;
+		font-family: sans-serif;
+		display: flex;
+		justify-content: center;
+	}
+	a{ /* configuração do texto dos links*/
+		text-decoration: none;
+		color: #fff;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	a:hover{ /*quando o mouse passa em cima*/
+		width: 90px;
+		height: 33px;
+		background-color: #FFA500; /*cor que fica*/
+		border-radius: 16px;
+	}
+	#logo{
+		width: 90px;
+		height: 33px;
+		margin-top: 7px;			
+		position: absolute;
+		left: 20%;
+		display: flex;
+		justify-content: center;
+	}
+
+	p#pp{
+		font-size: 20px;
+		font-family: sans-serif;
+		color: #fff;
+		font-weight: bold;
+	}
+	.divti{ /*div texto rodapé*/
+		width: 200px;
+		height: 40px;			
+		position: relative;
+        margin-left: auto;
+        margin-right: auto;	
+		margin-top: 20px;
+				
+	}
+	.academy{	/*o texto do rodapé*/	
+		font-size: 20px;
+		font-family: sans-serif;
+		color: #fff;
+		font-weight: bold;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.loremdiv{ /*2 div texto central e form*/
+		margin-top: 150px;
+		width: 400px;
+		height: 205px;
+		position: relative;
+        margin-left: auto;
+        margin-right: auto;	
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+	}
+	.loremint{  /*div interno*/
+		width: 200px;
+
+		border-right: 1px dashed #000;
+		background-color: #FFF;
+		border-top-left-radius: 20px;
+		border-bottom-left-radius: 30px;
+
+	}
+	.loremtex{ /*texto central*/
+		
+		color: #000;
+		font-size: 20px;
+		font-family: sans-serif;		
+	} 
+
+	#form{
+		width: 150px;
+		height: 205px;		
+		height: auto;
+		padding: 15px;
+		display: flex;
+		flex-direction: column;
+		font-family: sans-serif;
+
+	}
+
+	input{
+		margin: 5px;
+	}
+	.btn{
+		background-color: #FFA500;
+	}
+
+</style>
+
+<header>
+		<div id="logo"><p id="pp" class="divd">LOGO</p></div>
+		<div class="divf">
+		<div class="divd"><a href="">Home</a></div>
+		<div class="divd"><a href="">Contato</a></div>
+		<div class="divd"><a href="">Sobre</a></div>
+		</div>
+	</header>
+	<main>
+		<div class="loremdiv">
+		<div class="loremint" ><p class="academy, loremtex">"Lorem ipsum, dolor sit, amet consectetur adipisicing elit. Totam sit molestiae earum odit dolorem beatae voluptatibus dicta eius." </p></div>
+		
+		<div id="form">
+			 <form name="frmCadastro" method="get">
+			 	<p>Faça seu login aqui!!</p>
+        <input class="txt"  placeholder="digite seu E-mail" type="text" name="">        
+        <input class="txt"  placeholder="digite sua Senha" type="password" name="">
+        <input class="btn" placeholder="Entrar" type="submit" name="" >
+        
+   </form>
+			
+		</div>
+        </div>
+			
+	</main>
+
+	<footer>
+		<div class="divti" ><p class="academy">by TI - ACADEMY</p></div>
+	</footer>
+
+	
+</body>
+</html>
+	
+</body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<style>
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+	header, footer{
+		width: 100%;
+		height: 40px;
+		border: 1px solid #000;
+		border-bottom: 1 px solid #000;
+		background-color: tomato;
+		position: fixed;
+	}
+
+header{
+	top: 0
+}
+
+	footer{
+		border-bottom: 0;
+		height: 60px;
+		border-top: 1px solid #000;
+		bottom: 0;
+	}
+
+	main{
+		display: flex;
+		width: 100%;
+		height: auto;
+		background-color: cyan;
+		margin-top: 50 px;
+		flex-direction: row;
+
+	}
+
+	.filho{
+		width: auto;
+		height: auto;
+		margin: 0 auto;
+		font-size: 18px;
+		margin-top: 10.5vh;
+		margin-bottom: 15vh;
+		
+	}
+
+	.quadrado{
+		width: 20px;
+		height: 20px;
+		background-color: yellow;
+		position: fixed;
+		bottom: 10%;
+		left: 98%;
+		z-index: 10;
+	}
+
+	p{
+		padding: 3px;
+	}
+
+
+
+	@media screen and (max-width:  700px){
+		main{
+			flex-direction: column;
+		}
+		.filho{
+			width: 80%;
+			margin: 0;
+		}
+
+		.quadrado{
+			display: none;
+		}
+	}
+</style>
+<body>
+	<header></header>
+	<main>
+		<div class="filho">
+			<p>Lorem ipsum, dolor sit, amet consectetur adipisicing elit. Totam sit molestiae earum odit dolorem beatae voluptatibus dicta eius. Quae velit, consectetur dolore a. Esse molestias quod est placeat nisi fuga.
+			
+			<p>Lorem ipsum, dolor sit, amet consectetur adipisicing elit. Totam sit molestiae earum odit dolorem beatae voluptatibus dicta eius. Quae velit, consectetur dolore a. Esse molestias quod est placeat nisi fuga.
+			
+			<p>Lorem ipsum, dolor sit, amet consectetur adipisicing elit. Totam sit molestiae earum odit dolorem beatae voluptatibus dicta eius. Quae velit, consectetur dolore a. Esse molestias quod est placeat nisi fuga.
+			
+			<p>Lorem ipsum, dolor sit, amet consectetur adipisicing elit. Totam sit molestiae earum odit dolorem beatae voluptatibus dicta eius. Quae velit, consectetur dolore a. Esse molestias quod est placeat nisi fuga.
+			
+			<p>Lorem ipsum, dolor sit, amet consectetur adipisicing elit. Totam sit molestiae earum odit dolorem beatae voluptatibus dicta eius. Quae velit, consectetur dolore a. Esse molestias quod est placeat nisi fuga.
+			
+			<p>Lorem ipsum, dolor sit, amet consectetur adipisicing elit. Totam sit molestiae earum odit dolorem beatae voluptatibus dicta eius. Quae velit, consectetur dolore a. Esse molestias quod est placeat nisi fuga.
+			
+			<p>Lorem ipsum, dolor sit, amet consectetur adipisicing elit. Totam sit molestiae earum odit dolorem beatae voluptatibus dicta eius. Quae velit, consectetur dolore a. Esse molestias quod est placeat nisi fuga.
+		</div>
+
+
+		<div class="filho">
+
+			<p>Lorem ipsum, dolor sit, amet consectetur adipisicing elit. Totam sit molestiae earum odit dolorem beatae voluptatibus dicta eius. Quae velit, consectetur dolore a. Esse molestias quod est placeat nisi fuga.
+			
+			<p>Lorem ipsum, dolor sit, amet consectetur adipisicing elit. Totam sit molestiae earum odit dolorem beatae voluptatibus dicta eius. Quae velit, consectetur dolore a. Esse molestias quod est placeat nisi fuga.
+			
+			<p>Lorem ipsum, dolor sit, amet consectetur adipisicing elit. Totam sit molestiae earum odit dolorem beatae voluptatibus dicta eius. Quae velit, consectetur dolore a. Esse molestias quod est placeat nisi fuga.
+			
+			<p>Lorem ipsum, dolor sit, amet consectetur adipisicing elit. Totam sit molestiae earum odit dolorem beatae voluptatibus dicta eius. Quae velit, consectetur dolore a. Esse molestias quod est placeat nisi fuga.
+			
+			<p>Lorem ipsum, dolor sit, amet consectetur adipisicing elit. Totam sit molestiae earum odit dolorem beatae voluptatibus dicta eius. Quae velit, consectetur dolore a. Esse molestias quod est placeat nisi fuga.
+			
+			<p>Lorem ipsum, dolor sit, amet consectetur adipisicing elit. Totam sit molestiae earum odit dolorem beatae voluptatibus dicta eius. Quae velit, consectetur dolore a. Esse molestias quod est placeat nisi fuga.
+			
+			<p>Lorem ipsum, dolor sit, amet consectetur adipisicing elit. Totam sit molestiae earum odit dolorem beatae voluptatibus dicta eius. Quae velit, consectetur dolore a. Esse molestias quod est placeat nisi fuga.
+			
+		</div>
+		
+		<div class="quadrado"></div>
+
+	</main>
+	<footer></footer>
+</body>
+</html>

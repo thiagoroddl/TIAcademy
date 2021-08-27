@@ -1,0 +1,44 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+main {
+	width: 480px;
+	height: 400px;
+	margin: 0 auto;
+	margin-top: 10%;
+	background-color: cyan;
+	display: flex;
+	flex-direction: column;
+	
+}
+
+
+.quadrado{
+	width: 150px;
+	height: 150px;
+	border: 1px solid #000;
+	margin: 2px;
+	background-color: purple;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.circ{
+	width: 150px;
+	height: 150px;
+	margin-left: 328px;
+	margin-top: 94px;
+	background-color: yellow;
+	border-radius: 100%;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+
+
+
+
